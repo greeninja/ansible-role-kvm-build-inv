@@ -34,4 +34,5 @@
     dest: "{{ inventory_dir }}/data.json"
   run_once: true
   delegate_to: localhost
+  become: false
 
